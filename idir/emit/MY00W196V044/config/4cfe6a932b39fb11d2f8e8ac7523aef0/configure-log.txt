@@ -1,0 +1,4 @@
+Native Compiler invocation: c:/program files/dotnet/dotnet.exe msbuild /t:Restore;Clean;Build C:\Users\radzuan-1\OneDrive - Mettler Toledo LLC\Codes\coverity-security-library-.net-develop\Coverity.Security\Coverity.Security.Example\Coverity.Security.Example.csproj
+Working directory: C:\Users\radzuan-1\OneDrive - Mettler Toledo LLC\Codes\coverity-security-library-.net-develop\Coverity.Security\Coverity.Security.Example
+Comptype: dotnet
+* Configuring c:\program files\dotnet\dotnet as a C# compiler

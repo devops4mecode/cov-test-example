@@ -1,0 +1,11 @@
+capture:
+  build:
+    clean-command: dotnet msbuild /t:Restore;Clean
+    build-command: dotnet msbuild /t:Build
+    aspnet-compiler: true
+analyze:
+  location: local
+commit:
+  connect:
+    stream: NR_MT_TEST
+    url: https://sast.eu.mt.mtnet 

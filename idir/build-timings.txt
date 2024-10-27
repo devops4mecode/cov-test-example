@@ -1,0 +1,31 @@
+# Version: 950e903b4e p-2024.9-push-30
+# Command Line: C:\Users\radzuan-1\AppData\Roaming\Synopsys\desktop\controller\installedtools\coverity-analysis\2023.12.0\bin\cov-build --dir C:\Users\radzuan-1\OneDrive - Mettler Toledo LLC\Codes\coverity-security-library-.net-develop\Coverity.Security\Coverity.Security.Example\idir -c C:\Users\radzuan-1\OneDrive - Mettler Toledo LLC\Codes\coverity-security-library-.net-develop\Coverity.Security\Coverity.Security.Example\idir\coverity-cli\build-compiler-configs\coverity_config.xml --append-log --no-security-da --enable-scan-transparency-data dotnet msbuild /t:Restore;Clean;Build C:\Users\radzuan-1\OneDrive - Mettler Toledo LLC\Codes\coverity-security-library-.net-develop\Coverity.Security\Coverity.Security.Example\Coverity.Security.Example.csproj
+timer                                    ms      calls
+------------------------------------------------------
+cov-build                              3281          1
+  create_or_open emit DB                 15          1
+    open emit DB                          0          1
+  add_string_to_table                     0         14
+  addEmitFileName                         0          1
+  addEnvironmentVars                      0          1
+    add_string_to_table                   0         61
+  Prepare capture                         0          1
+  parse_xml_config_file                  46          4
+  Running build command                1453          1
+  generate_generic_compiler_map         907          1
+    handle_derived_compiler              60         16
+  (left over)                           860
+
+activity                                 ms      calls
+------------------------------------------------------
+cov-build                              3281          1
+parse_xml_config_file                    46          4
+create_or_open emit DB                   15          1
+open emit DB                              0          1
+add_string_to_table                       0         75
+addEmitFileName                           0          1
+addEnvironmentVars                        0          1
+Prepare capture                           0          1
+Running build command                  1453          1
+generate_generic_compiler_map           907          1
+handle_derived_compiler                  60         16

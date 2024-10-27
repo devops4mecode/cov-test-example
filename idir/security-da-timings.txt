@@ -1,0 +1,9 @@
+# Version: 950e903b4e p-2024.9-push-30
+# Command Line: C:\Users\radzuan-1\AppData\Roaming\Synopsys\desktop\controller\installedtools\coverity-analysis\2023.12.0\bin\cov-security-da --dir C:\Users\radzuan-1\OneDrive - Mettler Toledo LLC\Codes\coverity-security-library-.net-develop\Coverity.Security\Coverity.Security.Example\idir --ticker-mode none
+timer                         ms      calls
+-------------------------------------------
+cov_security_da::run          32          1
+
+activity                      ms      calls
+-------------------------------------------
+cov_security_da::run          32          1
